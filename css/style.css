@@ -7,7 +7,7 @@
 }
 h1  {
     text-align: center;
-    font-size: 6vh;
+    font-size: clamp(40px, 6vh ,15vh);
     font-style: italic;
     color: red;
 }
@@ -45,6 +45,7 @@ button {
     color: white;
     background-color: #14ec14;
     cursor: pointer;
+    font-size: clamp(21px, 5vh ,10vh);;
 }
 button:hover{
     background-color: indigo;
