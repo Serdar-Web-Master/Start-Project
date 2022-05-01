@@ -32,11 +32,11 @@ input {
     height: clamp(40px, 7vh ,15vh);
     text-align: center;
     margin-bottom: 5vh;
-    font-size: 3vh;
+    font-size: clamp(20px, 3vh ,10vh);
 
 }
 button {
-    height: 8vh;
+    height: clamp(40px, 8vh ,15vh);
     width: 40vw;
     display: block;
     border: 2px solid #ea0b0b;
