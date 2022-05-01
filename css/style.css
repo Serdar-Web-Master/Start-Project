@@ -28,11 +28,12 @@ h1  {
 input {
     display: block;
     border: 1px solid black;
-    height: 7vh;
-    height: clamp(7vh, 10vh ,15vh);
+    /* height: 7vh; */
+    height: clamp(40px, 7vh ,15vh);
     text-align: center;
     margin-bottom: 5vh;
     font-size: 3vh;
+
 }
 button {
     height: 8vh;
