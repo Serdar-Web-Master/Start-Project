@@ -27,6 +27,7 @@ h1  {
 }
 input {
     display: block;
+    width: clamp(230px, 60vw, 600px);
     border: 1px solid black;
     /* height: 7vh; */
     height: clamp(40px, 7vh ,15vh);
@@ -37,7 +38,7 @@ input {
 }
 button {
     height: clamp(40px, 8vh ,15vh);
-    width: 40vw;
+    width: clamp(220px, 40vw, 480px);
     display: block;
     border: 2px solid #ea0b0b;
     border-radius: 5vw;
